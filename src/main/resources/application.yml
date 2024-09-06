@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: toolrental
+    datasource:
+        url: jdbc:h2:mem:tooldb;DATABASE_TO_UPPER=FALSE;CASE_INSENSITIVE_IDENTIFIERS=TRUE
+        username: admin
+        password: supersecret
+        driverClassName: org.h2.Driver
+logging:
+    level:
+        root: info

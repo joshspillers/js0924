@@ -1,23 +1,23 @@
 # Getting Started
-###The Following Were Used to Develop this Application
+### The Following Were Used to Develop this Application
 * Spring Boot 3.3.3
 * Java JDK 17 (Amazon Corretto implementation, to be precise)
 * JVM 17.0.10 (Amazon Corretto)
 * Gradle 8.10
 
-###Gradle Commands
+### Gradle Commands
 The following Gradle commands can be used to run the application or tests.
 * _Application:_ `gradle bootRun --console=plain`
 * _Test:_ `gradle :test`
 
-###A Note About Spring Data JDBC
+### A Note About Spring Data JDBC
 This application was built using Spring Data JDBC (see below ref document). This should **not** to be confused with 
 Spring JDBC (IE: jdbcTemplate, etc). Spring Data JDBC is an ORM, like Hibernate, but is implemented to be much simpler to
 develop with that other JPA implementations.
 
 Here's how the table structure is defined.
 
-![Database table structure](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Database table structure](https://github.com/joshspillers/js0924/blob/master/doc/tool_rental_database_design.png?raw=true)
 
 ### Reference Documentation
 For further reference, please consider the following sections:

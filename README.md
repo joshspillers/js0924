@@ -13,7 +13,7 @@ The following Gradle commands can be used to run the application or tests.
 ### A Note About Spring Data JDBC
 This application was built using Spring Data JDBC (see below ref document). This should **not** to be confused with 
 Spring JDBC (IE: jdbcTemplate, etc). Spring Data JDBC is an ORM, like Hibernate, but is implemented to be much simpler to
-develop with that other JPA implementations.
+develop with than other JPA implementations.
 
 Here's how the table structure is defined.
 
